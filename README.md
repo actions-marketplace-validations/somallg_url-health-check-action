@@ -23,6 +23,8 @@ steps:
       # Basic auth login password pair.
       # Format: `login:password`
       basic-auth: "login:password" # Optional, default is empty
+      # String representation of user-agent pass to curl
+      user-agent: "Mozilla/5.0" Optional, default to "Mozilla/5.0"
 ```
 
 The action will fail if any of the URLs reports either 4xx or 5xx status codes.
